@@ -9,7 +9,7 @@ export default class LoginForm extends Component{
                 barStyle="light-content"
               />
               <TextInput
-                  placeholder="Phone number or email"
+                  placeholder="Phone number"
                   placeholderTextColor="rgba(255,255,255,0.7)"
                   returnKeyType="next"
                   onSubmitEditing={() => this.passwordInput.focus()}
